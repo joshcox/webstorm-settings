@@ -1,0 +1,44 @@
+<application>
+  <component name="libraryTable">
+    <library name="MPage Platform" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://C:/mpage/dev/assembly/mpages-drag-war-aux/target/external-resources/core" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://C:/mpage/resources/mapping" />
+        <root url="file://C:/mpage/resources/base" />
+        <root url="file://C:/mpage/resources/discrete-graphing" />
+        <root url="file://C:/mpage/resources/images" />
+        <root url="file://C:/mpage/resources/controls" />
+        <root url="file://C:/mpage/resources/META-INF" />
+        <root url="file://C:/mpage/resources/core" />
+        <root url="file://C:/mpage/resources/cerner" />
+        <root url="file://C:/mpage/resources/workflow" />
+        <root url="file://C:/mpage/resources/subsection" />
+        <root url="file://C:/mpage/resources/mpage" />
+        <root url="file://C:/mpage/resources/ckeditor" />
+        <root url="file://C:/mpage/resources/i18n" />
+        <root url="file://C:/mpage/resources/component" />
+        <root url="file://C:/mpage/resources/util" />
+        <root url="file://C:/mpage/dev/assembly/mpages-drag-war-aux/target/external-resources/core" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="MPageUI" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://C:/mpage/dev/MPageUI/src/main/js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://C:/mpage/dev/MPageUI/src/main/js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="https://wiki.ucern.com/pages/viewpage.action?spaceKey=associates&amp;title=MPageUI" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+  </component>
+</application>

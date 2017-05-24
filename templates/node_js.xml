@@ -1,0 +1,31 @@
+<templateSet group="node.js">
+  <template name="package" value="{ &quot;name&quot;: &quot;$PACKAGE_NAME$&quot;&#10;, &quot;version&quot;: &quot;$VERSION$&quot;&#10;, &quot;author&quot;: &quot;$AUTHOR$&quot;&#10;, &quot;description&quot;: &quot;$DESCRIPTION$&quot;&#10;, &quot;main&quot;:&quot;$MAINJS$&quot;&#10;, &quot;scripts&quot;:{ &quot;test&quot;:&quot;nodeunit test&quot; }&#10;, &quot;dependencies&quot; : { }&#10;, &quot;devDependencies&quot;: { }&#10;, &quot;engine&quot;: { &quot;node&quot;: &quot;&gt;=$ENGINE$&quot; }&#10;}" description="node package.json" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PACKAGE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="&quot;0.1.0&quot;" alwaysStopAt="true" />
+    <variable name="AUTHOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MAINJS" expression="" defaultValue="&quot;./app.js&quot;" alwaysStopAt="true" />
+    <variable name="ENGINE" expression="" defaultValue="&quot;0.8&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="req" value="$NAME$ = require(&quot;$FILE$&quot;)$END$" description="requires to a variable" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="export" value="exports['$NAME$'] = $END$" description="node exports" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="module" value="module.exports = $END$" description="module exports" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,30 @@
+<templateSet group="bdd (js)">
+  <template name="it" value="it(&quot;$NAME$&quot;, function() {&#10;    $END$&#10;})" description="bdd test" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="itasync" value="it(&quot;$NAME$&quot;, function(done) {&#10;    $END$&#10;})" description="asynchronous it" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="before" value="beforeEach(function() {&#10;    $END$&#10;})" description="jasmine before each" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="after" value="afterEach(function() {&#10;    $END$&#10;})" description="jasmine after each" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="describe" value="describe(&quot;$NAME$&quot;, function() {&#10;    $END$&#10;})" description="jasmine suite" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="fileNameWithoutExtension()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,163 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="ExportableFileTemplateSettings">
+        <default_templates>
+          <template name="MPageUI Class.js" reformat="true" live-template-enabled="true" />
+        </default_templates>
+      </component>
+      <component name="Git.Settings">
+        <option name="ROOT_SYNC" value="DONT_SYNC" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+        </profile>
+        <version value="1.0" />
+      </component>
+      <component name="Jenkins.Application.Settings">
+        <option name="serverUrl" value="http://discernabu.cerner.corp:8080/jenkins/" />
+      </component>
+      <component name="Jenkins.Settings">
+        <option name="username" value="jc028297" />
+      </component>
+      <component name="JsBowerSettings">
+        <exe-path />
+        <config-path />
+      </component>
+      <component name="JsFlowSettings">
+        <service-enabled>false</service-enabled>
+        <exe-path />
+        <annotation-enable>false</annotation-enable>
+        <other-services-enabled>false</other-services-enabled>
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>DOM issuesJavaScript</id>
+              </State>
+              <State>
+                <id>JavaScript</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>CSS</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+        <property name="last_opened_file_path" value="C:/mpage/dev/fusion" />
+        <property name="js.eslint.nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+        <property name="js.eslint.eslintPackage" value="C:\Users\JC028297\AppData\Roaming\npm\node_modules\eslint" />
+        <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+        <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+          <method />
+        </configuration>
+        <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+          <method />
+        </configuration>
+        <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+          <method />
+        </configuration>
+        <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+          <config-file value="" />
+          <node-interpreter value="project" />
+          <envs />
+          <method />
+        </configuration>
+        <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+          <method />
+        </configuration>
+        <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+          <method />
+        </configuration>
+        <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+          <node-js-remote-debug />
+          <method />
+        </configuration>
+        <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+          <method />
+        </configuration>
+        <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+          <setting name="nodePath" value="C:/Program Files/nodejs/node" />
+          <envs />
+          <setting name="nodeunitModuleDir" value="" />
+          <setting name="workingDirectory" value="" />
+          <setting name="testType" value="JS_FILE" />
+          <setting name="jsFile" value="" />
+          <method />
+        </configuration>
+        <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+          <node-interpreter value="project" />
+          <envs />
+          <method />
+        </configuration>
+        <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+          <node-interpreter>project</node-interpreter>
+          <node-options />
+          <gulpfile />
+          <tasks />
+          <arguments />
+          <envs />
+          <method />
+        </configuration>
+        <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+          <command value="run" />
+          <scripts />
+          <node-interpreter value="project" />
+          <envs />
+          <method />
+        </configuration>
+        <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+          <node-interpreter>C:/Program Files/nodejs/node.exe</node-interpreter>
+          <node-options />
+          <working-directory />
+          <pass-parent-env>true</pass-parent-env>
+          <envs />
+          <ui>bdd</ui>
+          <extra-mocha-options />
+          <test-kind>DIRECTORY</test-kind>
+          <test-directory />
+          <recursive>false</recursive>
+          <method />
+        </configuration>
+      </component>
+      <component name="SvnConfiguration">
+        <configuration>C:\Users\JC028297\AppData\Roaming\Subversion</configuration>
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.5" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

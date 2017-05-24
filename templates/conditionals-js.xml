@@ -1,0 +1,35 @@
+<templateSet group="conditionals-js">
+  <template name="switch" value="switch ($EXPRESSION$) {&#10;case $EXPVALUE1$:&#10;    $END$&#10;    break;&#10;case $EXPVALUE2$:&#10;&#10;    break;&#10;default:&#10;&#10;}" description="'switch' statement" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="EXPRESSION" expression="completeSmart()" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <variable name="EXPVALUE1" expression="" defaultValue="&quot;val1&quot;" alwaysStopAt="true" />
+    <variable name="EXPVALUE2" expression="" defaultValue="&quot;val2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="elseif" value="else if ($CONDITION$) {&#10;    $END$&#10;}" description="else if branch" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="else" value="else {&#10;    $END$&#10;}" description="else branch" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($CONDITION$) {&#10;    $END$&#10;}" description="'if' statement" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="CONDITION" expression="completeSmart()" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ternary" value="($CONDITION$) ? $CONSEQUENT$ : $ANTECEDENT$" description="Inserts a ternary operation" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONSEQUENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ANTECEDENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

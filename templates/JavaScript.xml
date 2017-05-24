@@ -1,0 +1,122 @@
+<templateSet group="JavaScript">
+  <template name="func" value="function $NAME$($ARGS$) {&#10;    $END$&#10;}" description="named function" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="class" value="function $NAME$($ARGS$) {&#10;    if(!(this instanceof $NAME$))&#10;        return new $NAME$($ARGS$)&#10;    $END$&#10;}" description="a prototypical javascript class" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="error" value="function $NAME$(message) {&#10;    if(!(this instanceof $NAME$))&#10;        return new $NAME$(message)&#10;    this.name = &quot;$NAME$&quot;&#10;    this.message = message&#10;}&#10;$NAME$.prototype = new Error()" description="new Error template" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="foreach" value="$ARRAY$.forEach(function(value, index, list) {&#10;    $END$&#10;})" description="javascript forEach" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="obj" value="var $NAME$ = {$END$}" description="Create a value object" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fwrap" value="function($ARGS$) {&#10;    return function($INNERARGS$) {&#10;        $END$&#10;    }&#10;}" description="return a wrapped functional scope" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INNERARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iife" value="(function($ARGS$) {&#10;    $END$&#10;})($PARAMS$)" description="immediately invoked function expression" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="call" value="$FUNC$.call(this, $END$)" description="call a function with this" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="FUNC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="instanceof" value="$VALUE$ instanceof $TYPE$" description="check if a value is an instance of a type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="?" value="$VAR$ = ($CONDITION$) ? $VAL1$ : $VAL2$" description="Conditional operator that assigns a value to a variable based on some condition" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;val&quot;" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="completeSmart()" defaultValue="&quot;condititon&quot;" alwaysStopAt="true" />
+    <variable name="VAL1" expression="" defaultValue="&quot;value1&quot;" alwaysStopAt="true" />
+    <variable name="VAL2" expression="" defaultValue="&quot;value2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="len = $ARRAY$.length;&#10;for ($INDEX$ = 0; $INDEX$ &lt; len; $INDEX$ += 1) {&#10;    $VAR$ = $ARRAY$[$INDEX$];&#10;    $END$    &#10;}" description="Loop 'for' with index" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="meth_name" value="/**&#10; * @$PUBLIC_OR_PRIVATE$&#10; * @function $METHOD_NAME$&#10; * @param {$PARAM_TYPE$} $PARAM_NAME$ $PARAM_DESCRIPTION$&#10; * " description="Generates a method within the current namespace" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PUBLIC_OR_PRIVATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="iter" value="for (let $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of) - ES2015" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="itin" value="for (var $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="itar" value="for (var $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ritar" value="for (var $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ref" value="///&lt;reference path=&quot;$PATH$&quot;/&gt;&#10;$END$" description="Inserts reference path comment" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="PATH" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="defn" value="define([&quot;$MODULE_REF$&quot;], function($MODULE_VAR$) {&#10;$END$&#10;});" description="Inserts define() expression" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULE_REF" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="jsDefineParameter(MODULE_REF)" defaultValue="mod" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="flow" value="// @flow" description="Inserts @flow annotation" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>

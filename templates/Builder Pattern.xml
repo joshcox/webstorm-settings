@@ -1,0 +1,12 @@
+<templateSet group="Builder Pattern">
+  <template name="with" value="with$NAME$($NAME2$) {&#10;    this._$NAME2$ = $NAME2$;&#10;    return this;&#10;}$END$" description="with* method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME2" expression="decapitalize($NAME$)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+</templateSet>

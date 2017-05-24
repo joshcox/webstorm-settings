@@ -1,0 +1,10 @@
+<templateSet group="types-js">
+  <template name="typeof" value="typeof $VALUE$ $COMPARISON$ &quot;$TYPE$&quot;" description="Insert typeof comparison" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMPARISON" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

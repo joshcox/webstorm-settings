@@ -1,0 +1,206 @@
+<templateSet group="jasmine (js)">
+  <template name="x" value="expect($OBJ$).toBe($VALUE$)" description="jasmine ===" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xtrue" value="expect($OBJ$).toBeTruthy()" description="jasmine is truthy" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xfalse" value="expect($OBJ$).toBeFalsy()" shortcut="TAB" description="jasmine is falsy" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xequal" value="expect($OBJ$).toEqual($VALUE$)" description="jasmine ==" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xequal" value="expect($OBJ$).not.toEqual($VALUE$)" description="jasmine !=" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xdefined" value="expect($OBJ$).toBeDefined()" description="jasmine is defined" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xdef" value="expect($OBJ$).toBeDefined()" description="jasmine is defined" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xundefined" value="expect($OBJ$).toBeUnDefined()" description="jasmine is undefined" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xundef" value="expect($OBJ$).toBeUndefined()" description="jasmine is undefined" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xmatch" value="expect($OBJ$).toMatch(/$REGEXP$/)" description="jasmine matches regex" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REGEXP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xmatch" value="expect($OBJ$).not.toMatch(/$REGEXP$/)" description="jasmine doesnt match regex" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REGEXP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xnull" value="expect($OBJ$).toBeNull()" description="jasmine is null" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xcontains" value="expect($OBJ$).toContain($VALUE$)" description="jasmine [] contains value" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xcontains" value="expect($OBJ$).not.toContain($VALUE$)" description="jasmine [] doesnt contain value" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xclose" value="expect($OBJ$).toBeCloseTo($VALUE$, $TOL$)" description="jasmine within tolerance" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TOL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xclose" value="expect($OBJ$).not.toBeCloseTo($VALUE$, $TOL$)" description="jasmine outside of tolerance" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TOL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spy" value="spyOn($OBJ$, '$FUNCNAME$')" description="jasmine spy" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xcalled" value="expect($OBJ$).toHaveBeenCalled()" description="jasmine spy called" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xcalled" value="expect($OBJ$).not.toHaveBeenCalled()" description="jasmine spy not called" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xcalledwith" value="expect($OBJ$).toHaveBeenCalledWith($VALUES$)" description="jasmine called with arguments" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spyargs" value="$OBJ$.calls[$INDEX$].args[$ARGINDEX$]" description="jasmine spyed arguments" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INDEX" expression="" defaultValue="0" alwaysStopAt="true" />
+    <variable name="ARGINDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xthrow" value="expect(function() { $END$ }).toThrow()" description="jasmine throws" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xthrow" value="expect(function() { $END$ }).not.toThrow()" description="jasmine no exception" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xless" value="expect($OBJ$).toBeLessThan($VALUE$)" description="jasmine is less than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xless" value="expect($OBJ$).not.toBeLessThan($VALUE$)" description="jasmine not less than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xgreater" value="expect($OBJ$).toBeGreaterThan($VALUE$)" description="jasmine greater than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!xgreater" value="expect($OBJ$).not.toBeGreaterThan($VALUE$)" description="jasmine not greater than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wait" value="waitsFor(function() {&#10;    $END$&#10;}, '$DESC$');" description="jasmine waits for a condition" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="runs" value="runs(function() {&#10;    $END$&#10;});" description="jasmine runs after wait" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spyrecent" value="$OBJ$.mostRecentCall().args[$ARGINDEX$]" description="jasmine recent arguments" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGINDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spyreturnvalue" value="$SPY$.and.returnValue($SPY_RETURN$);" description="jasmine spy and returnValue" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="SPY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SPY_RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

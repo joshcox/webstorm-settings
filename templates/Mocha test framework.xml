@@ -1,0 +1,24 @@
+<templateSet group="Mocha test framework">
+  <template name="it" value="it(&quot;$STATE$&quot;, function () {&#10;    $END$&#10;});" description="Mocha 'it' state in test" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="STATE" expression="" defaultValue="&quot;Some state&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="desc" value="describe(&quot;$TESTNAME$&quot;, function () {&#10;    $END$&#10;});" description="Mocha 'describe' function" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="TESTNAME" expression="" defaultValue="&quot;New test&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="beforeEach" value="beforeEach(function() {&#10;    $END$&#10;});" description="Insert a beforeEach block" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afterEach" value="afterEach(function() {&#10;    $END$&#10;});" description="Insert an afterEach block" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,38 @@
+<templateSet group="nodeunit">
+  <template name="nafter" value="$ASSIGNMENT$function(callback) {&#10;    $END$&#10;    callback();&#10;}" description="NodeUnit teardown" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ASSIGNMENT" expression="" defaultValue="&quot;exports['tearDown'] = &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nbefore" value="$ASSIGNMENT$function(callback) {&#10;    $END$&#10;    callback();&#10;}" description="NodeUnit setup" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ASSIGNMENT" expression="" defaultValue="&quot;exports['setUp'] = &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nsetup" value="$ASSIGNMENT$function(callback) {&#10;    $END$&#10;    callback();&#10;}" description="NodeUnit setup" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ASSIGNMENT" expression="" defaultValue="&quot;exports['setUp'] = &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nsuite" value="exports['$NAME$'] = {&#10;    $END$&#10;}" description="NodeUnit Suite" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nteardown" value="$ASSIGNMENT$function(callback) {&#10;    $END$&#10;    callback();&#10;}" description="NodeUnit teardown" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ASSIGNMENT" expression="" defaultValue="&quot;exports['tearDown'] = &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntest" value="exports['$NAME$'] = function(test) {&#10;    $END$&#10;    test.done()&#10;}" description="NodeUnit Test" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

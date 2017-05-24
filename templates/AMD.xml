@@ -1,0 +1,8 @@
+<templateSet group="AMD">
+  <template name="define" value="/*global define:true*/&#10;define('$MODULENAME$', [], function () {&#10;    'use strict';&#10;    $END$&#10;    return {};&#10;});" description="Create empty AMD module" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULENAME" expression="fileNameWithoutExtension()" defaultValue="&quot;NewModuleName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

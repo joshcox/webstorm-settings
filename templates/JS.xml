@@ -1,0 +1,69 @@
+<templateSet group="JS">
+  <template name="forin" value="for (prop in $OBJ$) {&#10;    if ($OBJ$.hasOwnProperty(prop)) {&#10;        $END$&#10;    }&#10;}" description="Loop 'for-in' loops through the properties of an object" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="while" value="while ($CONDITION$) {&#10;    $END$&#10;}" description="Loop 'while' loops through a block of code with condition" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="CONDITION" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;    $END$&#10;} catch (err) {&#10;&#10;}" description="'try-catch' statement" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="throw" value="throw new $ERRTYPE$('$MSG$', '$MODULENAME$');" description="Throw new error" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="ERRTYPE" expression="enum(&quot;Error&quot;, &quot;RangeError&quot;, &quot;ReferenceError&quot;, &quot;TypeError&quot;, &quot;URIError&quot;, &quot;EvalError&quot;, &quot;SyntaxError&quot;)" defaultValue="&quot;Error&quot;" alwaysStopAt="true" />
+    <variable name="MSG" expression="" defaultValue="&quot;Error description&quot;" alwaysStopAt="true" />
+    <variable name="MODULENAME" expression="fileNameWithoutExtension()" defaultValue="&quot;Module&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="function ($PARAMETERS$) {&#10;    'use strict';&#10;    var me = this;&#10;    $END$&#10;}" description="Add new function" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PARAMETERS" expression="completeSmart()" defaultValue="&quot;params&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="import $PROPERTIES$ from &quot;$SOURCE$&quot;;$END$" description="Import form #1" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPERTIES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="accessor" value="/**&#10; * $DESC$&#10; * &#10; * @member {$TYPE$} $PARENT$#$NAME$&#10; */&#10;get $NAME$() {&#10;    return this._$NAME$;&#10;}&#10;&#10;set $NAME$($NAME$) {&#10;    this._$NAME$ = $NAME$;&#10;}" description="Create a setter/getter pair" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tpa" value="this._$PRIVATE_VAR$ = $VALUE$;$END$" description="this._private = assignment;" toReformat="false" toShortenFQNames="true">
+    <variable name="PRIVATE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ta" value="this.$PUBLIC_VAR$ = $VALUE$;$END$" description="this.public = assignment;" toReformat="false" toShortenFQNames="true">
+    <variable name="PUBLIC_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="arrow" value="($PARAM$) =&gt; {&#10;    $END$&#10;}" description="Simple Arrow Function" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,109 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateMessagesToolWindow" />
+  <action id="ActivateSVNRepositoriesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="ActivatenpmToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="ctrl s" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CreateWebProject">
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="shift back_space" />
+  </action>
+  <action id="EditorHungryBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="Graph.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="Graph.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="Help.KeymapReference">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="Macro.CleanBadWrapping">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="ctrl a" />
+  </action>
+  <action id="Macro.Pop">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="ctrl s" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="ctrl n" />
+  </action>
+  <action id="NextTab">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="PipeTableFormatter.Format">
+    <keyboard-shortcut first-keystroke="ctrl alt k" second-keystroke="l" />
+  </action>
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="ctrl numpad1" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="ctrl p" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="Servers.Deploy">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Tool_Mop_mvn clean install -P mop">
+    <keyboard-shortcut first-keystroke="ctrl alt k" second-keystroke="i" />
+  </action>
+  <action id="Tool_Mop_mvn clean package -Ptest,mop">
+    <keyboard-shortcut first-keystroke="ctrl alt k" second-keystroke="m" />
+  </action>
+  <action id="com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction">
+    <keyboard-shortcut first-keystroke="ctrl alt k" second-keystroke="o" />
+  </action>
+</keymap>

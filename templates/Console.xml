@@ -1,0 +1,14 @@
+<templateSet group="Console">
+  <template name="log" value="console.log($PARAM$);$END$" description="Console log method" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PARAM" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dir" value="console.dir($PARAM$);$END$" description="Console dir method" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PARAM" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

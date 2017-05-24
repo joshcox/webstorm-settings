@@ -1,0 +1,23 @@
+<templateSet group="MPage">
+  <template name="m_ExecStdReq" value="(new ScriptRequest())&#10;    .setProgramName(&quot;mp_exec_std_request&quot;)&#10;    .setDataBlob($DATA_BLOB$)&#10;    .setRawDataIndicator($RAW_DATA_BOOLEAN$)&#10;    // ^MINE^, json, app($APP_NUMBER$), task($TASK_NUMBER$), request($REQUEST_NUMBER$)&#10;    .setParameterArray([ &quot;^MINE^&quot;, &quot;^^&quot;, $APP_NUMBER$, $TASK_NUMBER$, $REQUEST_NUMBER$])&#10;    .setResponseHandler(function(scriptReply) {&#10;        try {&#10;            var responseData = JSON.parse(scriptReply.getResponse());&#10;&#10;            $END$&#10;        }&#10;        catch (err) {&#10;            // Log out the failure&#10;            logger.logError(&quot;Error retrieving results from app($APP_NUMBER$), task($TASK_NUMBER$), request($REQUEST_NUMBER$)&quot;);&#10;        }&#10;    })&#10;    .performRequest();" description="Insert a request to mp_exec_std_request" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="DATA_BLOB" expression="" defaultValue="dataBlob" alwaysStopAt="true" />
+    <variable name="RAW_DATA_BOOLEAN" expression="" defaultValue="boolean" alwaysStopAt="true" />
+    <variable name="APP_NUMBER" expression="" defaultValue="appNumber" alwaysStopAt="true" />
+    <variable name="TASK_NUMBER" expression="" defaultValue="taskNumber" alwaysStopAt="true" />
+    <variable name="REQUEST_NUMBER" expression="" defaultValue="reqNumber" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mpf" value="import MPageUI from &quot;MPageUI&quot;;&#10;&#10;const {&#10;    Fusion: {&#10;        $END$&#10;    }&#10;} = MPageUI;" description="Import MPageFusion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mpfuic" value="import MPageUI from &quot;MPageUI&quot;;&#10;&#10;const {&#10;    Fusion: {&#10;        UIComponent&#10;    }&#10;} = MPageUI;&#10;&#10;/**&#10; *&#10; *&#10; * @class $UICOMPONENT_NAME$&#10; * @extends UIComponent&#10; */&#10;export default class $UICOMPONENT_NAME$ extends UIComponent {&#10;    /**&#10;     * Set up the initial properties of the $UICOMPONENT_NAME$.&#10;     * Props:&#10;     *   *&#10;     *&#10;     * @public&#10;     * @function $UICOMPONENT_NAME$&#10;     */&#10;    initialProps() {&#10;        return {&#10;&#10;        };&#10;    }&#10;&#10;    /**&#10;     * Render the VDOM.&#10;     *&#10;     * @public&#10;     * @function $UICOMPONENT_NAME$#view&#10;     * @param {Function} el - VDOM renderer&#10;     * @param {Object} props - The instance's props object&#10;     * @param {Object[]} children - The array of the the instance's children&#10;     * @param {Object} mappedChildren - The instance's named children dictionary&#10;     * @returns {VDOM}&#10;     */&#10;    view(el, props, children, mappedChildren) {&#10;        return el();&#10;    }&#10;}&#10;" description="MPageFusion UIComponent" toReformat="false" toShortenFQNames="true">
+    <variable name="UICOMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

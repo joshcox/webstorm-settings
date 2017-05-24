@@ -1,0 +1,206 @@
+<templateSet group="chai (js)">
+  <template name="xa" value="expect($OBJ$).to.be.$STATEMENT$('$TYPE$')" description="chai expect a type" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATEMENT" expression="enum(&quot;a&quot;,&quot;an&quot;)" defaultValue="a" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xinstance" value="expect($OBJ$).to.be.an.instanceof($TYPE$)" description="chai expect instance of" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xinclude" value="expect($OBJ$).to.include($VAL$)" description="chai expect {}/[]/&quot;&quot; to include something" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xok" value="expect($OBJ$).to.be.ok" description="chai expect truthiness" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xtrue" value="expect($OBJ$).to.be.true" description="chai expect true" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="x" value="expect($OBJ$).to.$END$" description="chai expect it to..." toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xfalse" value="expect($OBJ$).to.be.false" description="chai expect false" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xnull" value="expect($OBJ$).to.be.null" description="chai expect null" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xundef" value="expect($OBJ$).to.be.undefined" description="chai expect undefined" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xexist" value="expect($OBJ$).to.exist" description="chai expect existance" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xempty" value="expect($OBJ$).to.be.empty" description="chai expect 0 length" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xargs" value="expect($OBJ$).to.be.arguments" description="chai expect arguments" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xequal" value="expect($OBJ$).to.be.equal($VALUE$)" description="chai expect strictly equal" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xabove" value="expect($OBJ$).to.be.above($VALUE$)" description="chai expect is greater than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xleast" value="expect($OBJ$).to.be.at.least($VALUE$)" description="chai expect is not less than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xbelow" value="expect($OBJ$).to.be.below($VALUE$)" description="chai expect is less than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xmost" value="expect($OBJ$).to.be.at.most($VALUE$)" description="chai expect is not greater than" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xwithin" value="expect($OBJ$).to.be.within($VALUE$)" description="chai expect within a range" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xrange" value="expect($OBJ$).to.be.within($VALUE$)" description="chai expect within a range" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xprop" value="expect($OBJ$).to.have.property($VALUE$)" description="chai expect a property" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xdeep" value="expect($OBJ$).to.deep.$STATEMENT$($VALUE$)" description="chai deep comparison" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATEMENT" expression="enum(&quot;equal&quot;,&quot;property&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xlength" value="expect($OBJ$).to.have.length$STATEMENT$($VALUE$)" description="chai expect length" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATEMENT" expression="enum(&quot;above&quot;,&quot;below&quot;,&quot;within&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xmatch" value="expect($OBJ$).to.match(//$EXP$//)" description="chai expect regex" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xkeys" value="expect($OBJ$).to.have.keys($VALUE$)" description="chai expect keys on object" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xthrow" value="expect(function() {&#10;    $END$&#10;}).to.throw($VALUE$)" description="chai expect throw" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xclose" value="expect($VALUE$).to.be.closeTo($TARGET$, $TOLERANCE$)" description="chai expect closeness" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TARGET" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TOLERANCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xrespond" value="expect($CLASS$).to.respondTo('$FUNCTION$')" description="chai responds to a method" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xsatisfy" value="expect($PARAMS$).to.satisfy($FUNC$)" description="chai expect parameters satisfy statement" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xan" value="expect($OBJ$).to.be.$STATEMENT$('$TYPE$')" description="chai expect a type" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATEMENT" expression="enum(&quot;a&quot;,&quot;an&quot;)" defaultValue="an" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="xdef" value="expect($OBJ$).to.be.defined" description="chai expect defined" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
