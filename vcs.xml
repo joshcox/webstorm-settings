@@ -146,9 +146,13 @@
           <option name="url" value="https://gist.github.cerner.com/jc028297/f91930812b20e2b4e6d70c604065a269" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:mjayjones13/beans.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\mpage\dev\gist" />
+    <option name="cloneParentDir" value="C:\mpage\personal" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="C:/mpage/dev/patches" />
