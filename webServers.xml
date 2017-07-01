@@ -1,0 +1,54 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fcab8d51-3686-43ec-a347-00c9964dccbe" name="fork" url="http://fork">
+        <fileTransfer host="fork" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="dcc1a078-dd37-405b-bcaa-06177a4ccfaf" name="ip15depslr" url="http://ip15depslr">
+        <fileTransfer host="ip15depslr" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6fa885f9-3ead-4dd5-a7c5-6091c869d6ad" name="ip15engslr" url="http://ip15engslr">
+        <fileTransfer host="ip15engslr" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2ca30876-0d91-40f5-8b1c-e6fcc360e982" name="ip15engslr_jc" url="http://ip15engslr">
+        <fileTransfer host="ip15engslr" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d264b433-c200-4e66-a0fe-60b7fcd7c017" name="ipsol3" url="http://ipsol3">
+        <fileTransfer host="ipsol3" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0ddf3110-665c-4dbd-b9f0-69be3631bea9" name="ipint1" url="http://ipint1">
+        <fileTransfer host="ipint1" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

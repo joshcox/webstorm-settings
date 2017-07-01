@@ -1,6 +1,0 @@
-<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
-  <action id="Git.CreateNewBranch">
-    <keyboard-shortcut first-keystroke="meta quote" second-keystroke="meta b" />
-  </action>
-  <action id="Images.Editor.ToggleGrid" />
-</keymap>
