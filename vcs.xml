@@ -198,6 +198,10 @@
           <option name="url" value="git@github.cerner.com:MPages-Components/home-medications-o1.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.cerner.com:MPages-Components/care-management-referral-o1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\mpage\jc028297" />
