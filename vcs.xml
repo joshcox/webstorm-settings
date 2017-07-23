@@ -218,12 +218,11 @@
           <option name="url" value="git@github.cerner.com:MPagesFusionConcepts/action-footer.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gist.github.com/sahellebusch/37490c22110869e045393096a0bd01a7" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\josh\dev" />
+    <option name="cloneParentDir" value="C:\mpage\jc028297" />
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="C:/mpage/dev/patches" />
   </component>
 </application>

@@ -1,6 +1,11 @@
 <application>
   <component name="libraryTable">
     <library name="MPage Platform" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://C:/mpage/dev/assembly/mpages-drag-war-aux/target/external-resources/core" />
+        </sourceFilesUrls>
+      </properties>
       <CLASSES>
         <root url="file://C:/mpage/resources/mapping" />
         <root url="file://C:/mpage/resources/base" />
@@ -22,6 +27,11 @@
       <SOURCES />
     </library>
     <library name="MPageUI" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://C:/mpage/dev/MPageUI/src/main/js" />
+        </sourceFilesUrls>
+      </properties>
       <CLASSES>
         <root url="file://C:/mpage/dev/MPageUI/src/main/js" />
       </CLASSES>

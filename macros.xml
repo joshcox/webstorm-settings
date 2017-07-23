@@ -1,0 +1,65 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="CleanBadWrapping">
+      <action id="EditorLineStart" />
+      <action id="EditorBackSpace" />
+    </macro>
+    <macro name="MakeEncounter">
+      <action id="EditorLineStart" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorEnter" />
+      <action id="EditorUp" />
+      <typing text-keycode="83:0;69:0;84:0;32:0;57:0;54:0;52:0;55:0;54:0;48:0;45:1;82:1;69:1;81:1;45:0;46:1;69:0;78:0;67:0;79:0;85:0;78:0;84:0;69:0;82:0;45:1;73:0;68:0;45:1;76:0;73:0;83:0;84:0;91:0">set&amp;#x20;964760_REQ-&gt;encounter_id_list[</typing>
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorLineEnd" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWordWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorLineEnd" />
+      <action id="EditorPaste" />
+      <typing text-keycode="93:0;45:0;46:1;69:0;78:0;67:0;79:0;85:0;78:0;84:0;69:0;82:0;45:1;73:0;68:0;32:0;61:0;32:0">]-&gt;encounter_id&amp;#x20;=&amp;#x20;</typing>
+      <action id="EditorUp" />
+      <action id="EditorLineEnd" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWordWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorDown" />
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0">&amp;#x20;</typing>
+      <action id="EditorPaste" />
+      <typing text-keycode="46:0;48:0;48:0;32:0;71:0;79:0">.00&amp;#x20;go</typing>
+      <action id="EditorDown" />
+    </macro>
+    <macro name="Del">
+      <action id="EditorLineStart" />
+      <action id="EditorLineEndWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorLineEndWithSelection" />
+      <action id="EditorDelete" />
+      <action id="EditorDelete" />
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+    </macro>
+    <macro name="&lt;noname&gt;">
+      <action id="EditorLineEndWithSelection" />
+      <action id="EditorLineStart" />
+    </macro>
+    <macro name="Pop">
+      <action id="EditorDuplicate" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorLeftWithSelection" />
+      <action id="EditorBackSpace" />
+    </macro>
+  </component>
+</application>
