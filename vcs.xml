@@ -218,9 +218,13 @@
           <option name="url" value="git@github.cerner.com:MPagesFusionConcepts/action-footer.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:joshcox/microJSKanren.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\mpage\jc028297" />
+    <option name="cloneParentDir" value="C:\Users\josh\WebstormProjects" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="C:/mpage/dev/patches" />
