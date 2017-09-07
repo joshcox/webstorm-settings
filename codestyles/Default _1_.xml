@@ -1,6 +1,6 @@
 <code_scheme name="Default (1)">
   <option name="AUTODETECT_INDENTS" value="false" />
-  <option name="LINE_SEPARATOR" value="&#13;&#10;" />
+  <option name="LINE_SEPARATOR" value="&#10;" />
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
