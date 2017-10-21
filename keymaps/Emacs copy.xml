@@ -16,4 +16,8 @@
   <action id="EditorTab">
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
 </keymap>
