@@ -1,6 +1,6 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="&quot;bash.exe&quot; -c zsh --login -i" />
+    <option name="myShellPath" value="&quot;wsl.exe&quot; -c zsh --login -i" />
     <option name="mySoundBell" value="false" />
     <option name="myTabName" value="bash" />
   </component>
