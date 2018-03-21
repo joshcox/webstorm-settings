@@ -1,7 +1,7 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="&quot;C:\windows\system32\bash.exe&quot; -c fish -cur_console:p" />
+    <option name="myShellPath" value="&quot;bash.exe&quot; --login -i" />
     <option name="mySoundBell" value="false" />
-    <option name="myTabName" value="term" />
+    <option name="myTabName" value="bash" />
   </component>
 </application>
