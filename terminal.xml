@@ -1,6 +1,6 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="C:\Users\jc028297\AppData\Local\Microsoft\WindowsApps\ubuntu.exe" />
+    <option name="myShellPath" value="&quot;C:\windows\system32\bash.exe&quot; -c fish -cur_console:p" />
     <option name="mySoundBell" value="false" />
     <option name="myTabName" value="term" />
   </component>
