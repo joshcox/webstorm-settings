@@ -1,10 +1,13 @@
 <application>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <option name="showValuesInline" value="false" />
+      <show-values-inline>false</show-values-inline>
+    </data-views>
     <general />
     <debuggers>
       <debugger id="javascript">
-        <configuration captureAsyncStackTraces="false" doNotStepIntoLibraryCode="false">
+        <configuration doNotStepIntoLibraryCode="false">
           <custom-object-presentation />
           <stepping-filters-enabled>false</stepping-filters-enabled>
         </configuration>
