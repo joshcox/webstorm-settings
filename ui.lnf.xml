@@ -4,10 +4,13 @@
     <option name="EDITOR_TAB_LIMIT" value="1" />
     <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="FONT_FACE" value="Arimo for Powerline" />
-    <option name="FONT_SCALE" value="1.25" />
+    <option name="FONT_SCALE" value="1.0" />
+    <option name="FONT_SIZE" value="10" />
+    <option name="HIDE_TOOL_STRIPES" value="false" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="5" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="RIGHT_HORIZONTAL_SPLIT" value="true" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_EDITOR_TOOLTIP" value="false" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
