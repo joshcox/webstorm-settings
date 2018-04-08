@@ -2,8 +2,9 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".gitignore" type="PLAIN_TEXT" />
       <mapping pattern=".npmrc" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="originatingSourceSection.js" type="PLAIN_TEXT" />
       <mapping ext="2017-11-02t03-06-00" type="PLAIN_TEXT" />
       <mapping ext="prg" type="PLAIN_TEXT" />
