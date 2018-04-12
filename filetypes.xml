@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="md" type="ECMAScript 6" />
       <removed_mapping ext="md" type="Markdown" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore" type="PLAIN_TEXT" />
       <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping ext="prg" type="PLAIN_TEXT" />
