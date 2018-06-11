@@ -12,6 +12,5 @@
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="bigger.font.in.project.view" value="true" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
