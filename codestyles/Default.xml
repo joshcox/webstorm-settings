@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="100" />
   <option name="SOFT_MARGINS" value="100" />
+  <JSCodeStyleSettings>
+    <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+  </JSCodeStyleSettings>
 </code_scheme>
