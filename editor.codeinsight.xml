@@ -3,6 +3,9 @@
     <option name="COLLAPSE_IMPORTS" value="false" />
     <option name="COLLAPSE_FILE_HEADER" value="false" />
   </component>
+  <component name="CodeInsightSettings">
+    <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
+  </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
   </component>
