@@ -30,14 +30,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imp" value="import $PROPERTIES$ from &quot;$SOURCE$&quot;;$END$" description="Import form #1" toReformat="false" toShortenFQNames="true">
+  <template name="imp" value="import $PROPERTIES$ from &quot;$SOURCE$&quot;;$END$" description="Import form #1" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="PROPERTIES" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="accessor" value="/**&#10; * $DESC$&#10; * &#10; * @member {$TYPE$} $PARENT$#$NAME$&#10; */&#10;get $NAME$() {&#10;    return this._$NAME$;&#10;}&#10;&#10;set $NAME$($NAME$) {&#10;    this._$NAME$ = $NAME$;&#10;}" description="Create a setter/getter pair" toReformat="false" toShortenFQNames="true">
+  <template name="accessor" value="/**&#10; * $DESC$&#10; * &#10; * @member {$TYPE$} $PARENT$#$NAME$&#10; */&#10;get $NAME$() {&#10;    return this._$NAME$;&#10;}&#10;&#10;set $NAME$($NAME$) {&#10;    this._$NAME$ = $NAME$;&#10;}" description="Create a setter/getter pair" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARENT" expression="" defaultValue="" alwaysStopAt="true" />
@@ -46,21 +46,21 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tpa" value="this._$PRIVATE_VAR$ = $VALUE$;$END$" description="this._private = assignment;" toReformat="false" toShortenFQNames="true">
+  <template name="tpa" value="this._$PRIVATE_VAR$ = $VALUE$;$END$" description="this._private = assignment;" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="PRIVATE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ta" value="this.$PUBLIC_VAR$ = $VALUE$;$END$" description="this.public = assignment;" toReformat="false" toShortenFQNames="true">
+  <template name="ta" value="this.$PUBLIC_VAR$ = $VALUE$;$END$" description="this.public = assignment;" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="PUBLIC_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="arrow" value="($PARAM$) =&gt; {&#10;    $END$&#10;}" description="Simple Arrow Function" toReformat="false" toShortenFQNames="true">
+  <template name="arrow" value="($PARAM$) =&gt; {&#10;    $END$&#10;}" description="Simple Arrow Function" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />

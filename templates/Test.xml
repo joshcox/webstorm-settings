@@ -1,5 +1,5 @@
 <templateSet group="Test">
-  <template name="t" value="$FUNCTION$(&quot;$PARAM$&quot;, () =&gt; {&#10;    $END$&#10;});" description="Test Block" toReformat="false" toShortenFQNames="true">
+  <template name="t" value="$FUNCTION$(&quot;$PARAM$&quot;, () =&gt; {&#10;    $END$&#10;});" description="Test Block" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

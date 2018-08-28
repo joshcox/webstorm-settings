@@ -1301,4 +1301,10 @@
       <option name="JSP" value="true" />
     </context>
   </template>
+  <template name="a:tel" value="&lt;a href=&quot;tel:+$VAR0$&quot;&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;tel:+...&quot;&gt;...&lt;/a&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
 </templateSet>

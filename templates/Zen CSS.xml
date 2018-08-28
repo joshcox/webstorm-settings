@@ -2129,4 +2129,14 @@
   <template name="wfsm:n" value="-webkit-font-smoothing:none;" description="-webkit-font-smoothing: none;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
+  <template name="@ff" value="@font-face {&#10;  font-family:'$VAR0$';&#10;  src:url('$VAR1$.eot');&#10;  src: url('$VAR1$.eot?#iefix') format('embedded-opentype'), url('$VAR1$.woff') format('woff'), url('$VAR1$.ttf') format('truetype'), url('$VAR1$.svg#$VAR0$') format('svg');&#10;  font-style: $VAR2$;&#10;  font-weight: $VAR3$;&#10;}" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;FontName&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;FileName&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="lg" value="background-image: linear-gradient($END$);" description="background-image: linear-gradient(...);" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
 </templateSet>
