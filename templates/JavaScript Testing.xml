@@ -13,7 +13,7 @@
   <template name="afe" value="afterEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts afterEach() block" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="af" value="after(() =&gt; {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true">
+  <template name="af" value="afterAll(() =&gt; {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="bf" value="beforeAll(() =&gt; {&#10;  $END$&#10;});" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
